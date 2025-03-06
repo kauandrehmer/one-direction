@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #000000;
-}
+    --laranja-claro: #FF862A;
+ }
 
 body {
     font-size: 1rem;
@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 
@@ -21,13 +21,13 @@ section {
 
 
 .nav-link {
-    color: #000000;
+    color: #CB6D43;
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/foto1.webp');
+    background-image: url('img/4965007.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -76,8 +76,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url top right no-repeat,
-        url bottom left no-repeat;
+    background: url('img/flor.png') top right no-repeat,
+        url('img/flor-esquerda.png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -100,17 +100,17 @@ h2 {
 }
 
 #galeria {
-    background-color: #000000;
+    background-color: #FAF4F4;
 
 }
 
 .fundo-galeria {
-    background: url bottom right no-repeat;
+    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/logo\ one\ direction\ .jpg;');
+    background-image: url('img/4965007.jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -118,22 +118,45 @@ h2 {
 }
 
 .formulario {
-    background-color: #b4b4b4;
+    background-color: #ffffff;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
     /* Borda arredondada para o formulário */
-    box-shadow: 0 0 10px rgba(165, 90, 90, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* Sombra suave para destacar o formulário */
     font-weight: bold;
 }
 
 .formulario button {
-    background-color: #000000;
+    background-color: #CB6D43;
     border: none;
     font-weight: bold;
 }
 
 .form-control {
-    background-color: #ffffff;
+    background-color: #F1EDEF;
+}
+.menu-acessibilidade{
+    position: fixed;
+    top:2rem;
+    right:20px;
+    z-index: 1000;
+}
+.rotacao-botao{
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+
+.opcoes-acessibilidade{
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoes-acessibilidade button{
+    margin-bottom: 5px;
+}
+.apresenta-lista{
+    display: none;
 }
